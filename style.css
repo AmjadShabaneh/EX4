@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    display: block;
+    background-color: gray;
+    height: 80px;
+}
+.sec-1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-inline: 5%;  
+    gap:80px;
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.tap-cont{
+    height: 400px;
+    width:100%;
+    background-color: rgb(111, 117, 122);
+}
+.taps-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.taps{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+.tap{
+    height: 30px;
+    width: 100px;
+    background-color:rgb(190, 200, 208) ;
+}
+#tap-1{
+    background-color: rgb(111, 117, 122);
+}
+.right-side{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 40%;
+}
+.sqr-1{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(111, 117, 122);
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    align-self: flex-end;
+}
+.icon2{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(111, 117, 122);
+}
+.sec-2{
+    display: flex;
+    margin-top: 40px;
+    margin-inline: 5%;  
+    gap:80px;
+}
+.cards-sec{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 60%;
+    gap: 10px;
+}
+.card{
+    width: 16%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.img-sqr{
+    width: 100%;
+    height: 70%;
+    background-color: rgb(111, 117, 122);
+}
+.blog-sec{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 10px;
+    height: 400px;
+}
+.fw{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(111, 117, 122);
+}
+.blog-img{
+    width:160px;
+    height: 160px;
+    background-color: rgb(111, 117, 122);
+}
+.blog{
+    display: flex;
+    justify-content: space-between;
+    height: 170px;
+    width: 100%;
+    gap: 20px;
+}
+.blog-desc{
+    width: 70%;
+    text-align: justify;
+}
+.line{
+    width: 100%;
+    height: 3px;
+    background-color: rgb(111, 117, 122);
+}
+.footer{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(111, 117, 122);
+    margin-top: 80px;
+}
